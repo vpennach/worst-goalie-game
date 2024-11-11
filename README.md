@@ -10,7 +10,7 @@ GSAx works by taking into account the quality of shots by the other team and ass
 This little project basically just sorts through the game data of every hockey game (since 2009) and finds the opposing teams xGoals and how many goals were allowed by a team. All I wanted to do was basically find a list of the worst GSAx in a single game, which is simply (xGoalsAgainst - goalsAllowed)
 
 # Findings
-In the data file you will see the raw data in all_teams.csv and then the filtered data which is just a list of the 50 worst games by GSAx. The intial finding was very interesting. out of literally 10s of thousands of games the single two worst every team performances according to GSAx occured within one month for the SAME TEAM. and they are.
+The raw data file is too big to push to github but it can be found on the MoneyPuck website, but the filtered data which is just a list of the 50 worst games by GSAx is in the data folder titled worst_goalie_games.csv. The intial finding was very interesting. out of literally 10s of thousands of games the single two worst every team performances according to GSAx occured within one month for the SAME TEAM. and they are.
 **DET vs PIT on 03/27/2022 with -7.268 GSAx**
 **DET vs TOR on 02/26/2022 with -7.15 GSAx**
 
